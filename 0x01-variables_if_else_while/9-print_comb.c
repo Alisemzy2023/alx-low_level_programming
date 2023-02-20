@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main
+* main - Ali Semzy
 *
 * Return: Always 0.
 */
