@@ -1,30 +1,23 @@
 #include <stdio.h>
-
 /**
-* main - Ali Semzy
-*
-* Return: Always 0.
-*/
-
+ * main - entry point
+ *
+ * Return: alway returns 0
+ *
+ */
 int main(void)
 {
-	int a = '0';
+	int i;
 
-
-	while (a <= '9')
+	for (i = 10; i < 20; i++)
 	{
-		putchar(a);
-		if (a == '9')
-		{
-			putchar('\n');
-			return (0);
-		}
-		else
+		putchar((i % 10) + '0');
+		if (i != 19)
 		{
 			putchar(',');
 			putchar(' ');
-			a++;
 		}
 	}
+	putchar('\n');
 	return (0);
 }
