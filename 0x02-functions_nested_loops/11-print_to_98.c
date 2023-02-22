@@ -3,7 +3,6 @@
 #include <stdio.h>
 /**
  * print_to_98 - prints numbers up to 98
- * 
  * @n: input interger
  * Return: nothing
  */
