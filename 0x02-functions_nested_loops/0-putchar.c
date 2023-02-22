@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-* main - Lanzador
+* main - prints _putchar
 *
 * Return: Always 0
 *
