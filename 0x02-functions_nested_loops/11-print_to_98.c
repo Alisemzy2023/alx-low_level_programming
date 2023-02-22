@@ -4,8 +4,7 @@
 /**
  * print_to_98 - prints numbers up to 98
  * 
- * @n - input interger 
- *
+ * @n: input interger
  * Return: nothing
  */
 void print_to_98(int n)
